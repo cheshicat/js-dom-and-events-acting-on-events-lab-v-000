@@ -14,3 +14,12 @@ function addNewElementAsLi() {
   let n = retrieveEmployeeInformation();
   return document.querySelector(".employee-list").append(n);
 }
+
+function addNewLiOnClick() {
+  document
+    .querySelector('input[type="submit"]')
+    .addEventListener('click', function(event) {
+      addNewElementAsLi()
+    }
+  )
+}
