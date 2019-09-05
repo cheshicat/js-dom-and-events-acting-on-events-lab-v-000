@@ -29,5 +29,5 @@ function resetInput() {
 }
 
 function clearEmployeeListOnLinkClick() {
-  
+
 }
